@@ -26,4 +26,4 @@ date,cases,deaths,recovered,tests,tests_new,hospitalized,critical,state,source
 2020-03-23T19:00:00,,,,8000,,,,local,rtl
 2020-03-24T17:30:00,1099,8,,,,,,local,official
 2020-03-24T19:00:00,,,,,1500,,,local,rtl
-2020-03-25T16:00:00,1333,,,,,,,local,official
+2020-03-25T16:00:00,1333,8,,10000,,143,21,local,official
