@@ -21,15 +21,15 @@ Data is sparse, missing data points are not imputed or backfilled.
 
 - `recovered`
 
-  Successful recoveries from COVID-19
+  Successful recoveries from COVID-19. (It is unclear if this refers to all recovered COVID-19 diagnosed cases or only those that have been hospitalized.)
 
 - `tests`
 
-  Cumulative tests up to this point
+  cumulative tests up to this point
 
 - `tests_new`
 
-  Tests performed over the last day
+  tests performed over the last day
 
 - `hospitalized`
 
@@ -37,7 +37,7 @@ Data is sparse, missing data points are not imputed or backfilled.
 
 - `critical`
 
-  patients in critical care
+  patients in intensive care
 
 - `state`
 
