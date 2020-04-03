@@ -4,7 +4,7 @@
 
 ## [luxembourg.csv](luxembourg.csv)
 
-Data is sparse, missing data points are not imputed or backfilled.
+Data is sparse, missing data points are not imputed or back-filled.
 
 - `date`
 
@@ -41,7 +41,7 @@ Data is sparse, missing data points are not imputed or backfilled.
 
 - `discharged`
 
-  cumulatove number of patients discharged from hospital
+  cumulative number of patients discharged from hospital
 
 - `cases_mean_age`
 
@@ -73,6 +73,10 @@ Data is sparse, missing data points are not imputed or backfilled.
 
 ## [timeline.csv](timeline.csv)
 
+- `hospitalized`, `critical`
+
+  this includes patients transferred to Luxembourg (`critical_transfer`) from neighboring regions to accurately reflect hospital bed occupation
+
 - `days_1c`, `days_10c`, `days_100c`, `days_10d`
 
   Days since first, 10th, 100th case, 10th death
@@ -85,9 +89,13 @@ Data is sparse, missing data points are not imputed or backfilled.
 
   days since the previous change in cases/deaths
 
+- `cases_new_7d`, `deaths_new_7d`
+
+  number of new cases/deaths over the preceding week
+
 - `cases_new_s`
 
-  three day equal weighted moving average of new cases. Scaled to sum to current total of cases.
+  three day equal weighted moving average of new cases.
 
 - `cases_growth`
 
