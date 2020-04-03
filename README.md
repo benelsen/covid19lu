@@ -21,7 +21,7 @@ Data is sparse, missing data points are not imputed or backfilled.
 
 - `recovered`
 
-  Successful recoveries from COVID-19. (It is unclear if this refers to all recovered COVID-19 diagnosed cases or only those that have been hospitalized.)
+  Successful recoveries from COVID-19. Before April 3 only the number of patients discharged from hospitals was know. For persons diagnosed with COVID-19 that do not need to be hospitalized the criteria for recovery is two weeks elapsed since the initial diagnosis and 48h after no symptoms are preset, whichever is longer.
 
 - `tests`
 
@@ -39,6 +39,30 @@ Data is sparse, missing data points are not imputed or backfilled.
 
   patients in intensive care
 
+- `discharged`
+
+  cumulatove number of patients discharged from hospital
+
+- `cases_mean_age`
+
+  mean age of diagnosed cases
+
+- `cases_ratio_female`
+
+  ratio of patients that are female
+
+- `deaths_median_age`
+
+  median age of patients succumbed to COVID-19
+
+- `deaths_transfer`
+
+  patients transferred to Luxembourg that died. (Not included in the `deaths` column)
+
+- `critical_transfer`
+
+  patients transferred to Luxembourg that are in intensive care. (Not included in the `critical` column)
+
 - `state`
 
   `import` before local transmission has been detected, `local` thereafter
@@ -55,7 +79,7 @@ Data is sparse, missing data points are not imputed or backfilled.
 
 - `cases_new`, `deaths_new`
 
-  change in cases/deaths from the previous datapoint
+  change in cases/deaths from the previous data point
 
 - `cases_dT`, `deaths_dT`
 
@@ -75,4 +99,4 @@ Data is sparse, missing data points are not imputed or backfilled.
 
 - `cases_doubling_d`, `cases_doubling_d_s`
 
-  Days for cases to double assuming a daily growth of `cases_growth` and `cases_growth_s` respectivly
+  Days for cases to double assuming a daily growth of `cases_growth` and `cases_growth_s` respectively
