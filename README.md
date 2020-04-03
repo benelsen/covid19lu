@@ -89,22 +89,14 @@ Data is sparse, missing data points are not imputed or back-filled.
 
   days since the previous change in cases/deaths
 
-- `cases_new_7d`, `deaths_new_7d`
+- `cases_growth`, `deaths_growth`
 
-  number of new cases/deaths over the preceding week
+  daily increase in cases/deaths `a` (`N[t] = (1 + a)^k * N[t-k]`)
 
-- `cases_new_s`
+- `cases_doubling_d`, `deaths_doubling_d`
 
-  three day equal weighted moving average of new cases.
+  days for cases/deaths to double assuming a daily growth of `cases_growth`/`deaths_growth`
 
-- `cases_growth`
+- `prevalence_tests`
 
-  daily increase in cases `a` (`N[t] = (1 + a)^k * N[t-k]`)
-
-- `cases_growth_s`
-
-  same as `cases_growth` but using the moved average of new cases
-
-- `cases_doubling_d`, `cases_doubling_d_s`
-
-  Days for cases to double assuming a daily growth of `cases_growth` and `cases_growth_s` respectively
+  ratio of positive tests. Assumptions: the number of tests conducted and the number of new cases refer to the same time span, all new cases stem from positive tests
