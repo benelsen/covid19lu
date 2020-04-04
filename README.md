@@ -81,9 +81,9 @@ Data is sparse, missing data points are not imputed or back-filled.
 
   Days since first, 10th, 100th case, 10th death
 
-- `cases_new`, `deaths_new`
+- `cases_new`, `deaths_new`, `hospitalized_change`, `critical_change`, `discharged_change`
 
-  change in cases/deaths from the previous data point
+  change in cases/deaths/hospitalizations from the previous day. If the previous day's numbers were unknown the change is undetermined and considered a missing value.
 
 - `cases_dT`, `deaths_dT`
 
