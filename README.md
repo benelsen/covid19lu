@@ -2,9 +2,11 @@
 
 "Best effort" data of COVID-19 in Luxembourg.
 
+The dataset is compiled from official and media reports. The government now publishes daily (update)[https://coronavirus.gouvernement.lu/en.html].
+
 ## [luxembourg.csv](luxembourg.csv)
 
-Data is sparse, missing data points are not imputed or back-filled.
+This file contains sparse data. Multiple entries per days can be present if information is made public at different times or via different sources. Only data points published by that source are included — missing data  are not imputed or back-filled from other entries.
 
 - `date`
 
@@ -21,7 +23,7 @@ Data is sparse, missing data points are not imputed or back-filled.
 
 - `recovered`
 
-  Successful recoveries from COVID-19. Before April 3 only the number of patients discharged from hospitals was know. For persons diagnosed with COVID-19 that do not need to be hospitalized the criteria for recovery is two weeks elapsed since the initial diagnosis and 48h after no symptoms are preset, whichever is longer.
+  Successful recoveries from COVID-19. Before April 3 only the number of patients discharged from hospitals was know. For persons diagnosed with COVID-19 that do not need to be hospitalised the criteria for recovery is two weeks elapsed since the initial diagnosis and 48h after no symptoms are preset, whichever is longer.
 
 - `tests`
 
@@ -33,7 +35,7 @@ Data is sparse, missing data points are not imputed or back-filled.
 
 - `hospitalized`
 
-  patients currently hospitalized
+  patients currently hospitalised
 
 - `critical`
 
@@ -73,9 +75,11 @@ Data is sparse, missing data points are not imputed or back-filled.
 
 ## [timeline.csv](timeline.csv)
 
+This file has been condensed to a single entry by day and contains additional columns.
+
 - `hospitalized`, `critical`
 
-  this includes patients transferred to Luxembourg (`critical_transfer`) from neighboring regions to accurately reflect hospital bed occupation
+  this includes patients transferred to Luxembourg (`critical_transfer`) from neighbouring regions to accurately reflect hospital bed occupation
 
 - `days_1c`, `days_10c`, `days_100c`, `days_10d`
 
@@ -83,7 +87,7 @@ Data is sparse, missing data points are not imputed or back-filled.
 
 - `cases_new`, `deaths_new`, `hospitalized_change`, `critical_change`, `discharged_change`
 
-  change in cases/deaths/hospitalizations from the previous day. If the previous day's numbers were unknown the change is undetermined and considered a missing value.
+  change in cases/deaths/hospitalisations from the previous day. If the previous day's numbers were unknown the change is undetermined and considered a missing value.
 
 - `cases_dT`, `deaths_dT`
 
@@ -91,7 +95,7 @@ Data is sparse, missing data points are not imputed or back-filled.
 
 - `cases_growth`, `deaths_growth`
 
-  daily increase in cases/deaths `a` (`N[t] = (1 + a)^k * N[t-k]`)
+  daily increase in cases/deaths `g` (`N[t] = (1 + g)^k * N[t-k]`)
 
 - `cases_doubling_d`, `deaths_doubling_d`
 
