@@ -4,6 +4,8 @@
 
 The dataset is compiled from official and media reports. The government now publishes [daily update](https://coronavirus.gouvernement.lu/en.html).
 
+Columns can and will be added, changed and reordered as data becomes available or changes.
+
 ## [luxembourg.csv](luxembourg.csv)
 
 This file contains sparse data. Multiple entries per days can be present if information is made public at different times or via different sources. Only data points published by that source are included — missing data  are not imputed or back-filled from other entries.
