@@ -61,11 +61,15 @@ This file contains sparse data. Multiple entries per days can be present if info
 
 - `deaths_transfer`
 
-  patients transferred to Luxembourg that died. (Not included in the `deaths` column)
+  patients transferred to Luxembourg that died. (Not included in the `deaths` column of this data set.)
 
 - `critical_transfer`
 
-  patients transferred to Luxembourg that are in intensive care. (Not included in the `critical` column)
+  patients transferred to Luxembourg that are in intensive care. (Not included in the `critical` column of this data set.)
+
+- `hospitalized_transfer`
+
+  patients transferred to Luxembourg that are hospitalized. (Not included in the `hospitalized` column of this data set.)
 
 - `state`
 
@@ -77,17 +81,17 @@ This file contains sparse data. Multiple entries per days can be present if info
 
 ## [timeline.csv](timeline.csv)
 
-This file has been condensed to a single entry by day and contains additional columns.
+This file has been condensed to a single entry per day and contains additional columns.
 
 - `hospitalized`, `critical`
 
-  this includes patients transferred to Luxembourg (`critical_transfer`) from neighbouring regions to accurately reflect hospital bed occupation
+  includes patients transferred to Luxembourg (`critical_transfer`) from neighbouring regions to accurately reflect hospital bed occupation
 
 - `days_1c`, `days_10c`, `days_100c`, `days_10d`
 
   Days since first, 10th, 100th case, 10th death
 
-- `cases_new`, `deaths_new`, `hospitalized_change`, `critical_change`, `discharged_change`
+- `cases_new`, `deaths_new`, `recovered_new`, `hospitalized_change`, `critical_change`, `discharged_new`, `hospitalized_transfer_change`, `critical_transfer_change`, `deaths_transfer_new`
 
   change in cases/deaths/hospitalisations from the previous day. If the previous day's numbers were unknown the change is undetermined and considered a missing value.
 
@@ -103,6 +107,6 @@ This file has been condensed to a single entry by day and contains additional co
 
   days for cases/deaths to double assuming a daily growth of `cases_growth`/`deaths_growth`
 
-- `prevalence_tests`
+- `tests_new_ratio_positive`
 
-  ratio of positive tests. Assumptions: the number of tests conducted and the number of new cases refer to the same time span, all new cases stem from positive tests
+  ratio of positive tests among new tests. Assumptions: the number of tests conducted and the number of new cases refer to the same time span, all new cases stem from positive tests
