@@ -53,11 +53,19 @@ This file contains sparse data. Multiple entries per days can be present if info
 
 - `cases_ratio_female`
 
-  ratio of patients that are female
+  ratio of female persons of all diagnosed cases
 
-- `deaths_median_age`
+- `deaths_median_age`,  `deaths_mean_age`, `deaths_min_age`, `deaths_max_age`
 
-  median age of patients succumbed to COVID-19
+  median/mean/minimum/maximum age of patients succumbed to COVID-19
+
+- `deaths_ratio_female`
+
+  ratio of female persons of all deaths
+
+- `deaths_ratio_hospital`
+
+  ratio of deaths that occured in hospitals
 
 - `deaths_transfer`
 
