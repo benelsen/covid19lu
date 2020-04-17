@@ -53,7 +53,7 @@ This file contains sparse data. Multiple entries per days can be present if info
 
 - `cases_ratio_female`
 
-  ratio of female persons of all diagnosed cases
+  proportion of female persons of all diagnosed cases
 
 - `deaths_median_age`,  `deaths_mean_age`, `deaths_min_age`, `deaths_max_age`
 
@@ -61,11 +61,11 @@ This file contains sparse data. Multiple entries per days can be present if info
 
 - `deaths_ratio_female`
 
-  ratio of female persons of all deaths
+  proportion of female persons of all deaths
 
 - `deaths_ratio_hospital`
 
-  ratio of deaths that occured in hospitals
+  proportion of deaths that occured in hospitals
 
 - `deaths_transfer`
 
@@ -117,4 +117,26 @@ This file has been condensed to a single entry per day and contains additional c
 
 - `tests_new_ratio_positive`
 
-  ratio of positive tests among new tests. Assumptions: the number of tests conducted and the number of new cases refer to the same time span, all new cases stem from positive tests
+  proportion of positive tests among new tests. Assumptions: the number of tests conducted and the number of new cases refer to the same time span, all new cases stem from positive tests
+
+## [deaths_age_distribution.csv](deaths_age_distribution.csv)
+
+Age distribution of persons that died from COVID-19.
+
+The data includes one line for every age group per day. These are proportions of all deaths not new ones.
+
+- `data`
+
+  date on which the information was published
+
+- `age_group`
+
+  name for the age group
+
+- `min_age`, `max_age`
+
+  lower and upper bound of the age group. (Lower bound inclusive, upper bound exclusive)
+
+- `proportion`
+
+  proportion of total deaths occuring in this age group
