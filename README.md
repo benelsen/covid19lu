@@ -28,6 +28,10 @@ This file contains sparse data. Multiple entries per days can be present if info
 
   Successful recoveries from COVID-19. Before April 3 only the number of patients discharged from hospitals was know. For persons diagnosed with COVID-19 that do not need to be hospitalised the criteria for recovery is two weeks elapsed since the initial diagnosis and 48h after no symptoms are preset, whichever is longer.
 
+- 'active'
+
+  Still active cases of COVID-19 (cf `recovered`)
+
 - `tests`
 
   cumulative tests up to this point
@@ -96,11 +100,7 @@ This file has been condensed to a single entry per day and contains additional c
 
   includes patients transferred to Luxembourg (`critical_transfer`) from neighbouring regions to accurately reflect hospital bed occupation
 
-- `days_1c`, `days_10c`, `days_100c`, `days_10d`
-
-  Days since first, 10th, 100th case, 10th death
-
-- `cases_new`, `deaths_new`, `recovered_new`, `hospitalized_change`, `critical_change`, `discharged_new`, `hospitalized_transfer_change`, `critical_transfer_change`, `deaths_transfer_new`
+- `cases_new`, `deaths_new`, `recovered_new`, `active_change`, `hospitalized_change`, `critical_change`, `discharged_new`, `hospitalized_transfer_change`, `critical_transfer_change`, `deaths_transfer_new`
 
   change in cases/deaths/hospitalisations from the previous day. If the previous day's numbers were unknown the change is undetermined and considered a missing value.
 
@@ -119,6 +119,10 @@ This file has been condensed to a single entry per day and contains additional c
 - `tests_new_ratio_positive`
 
   proportion of positive tests among new tests. Assumptions: the number of tests conducted and the number of new cases refer to the same time span, all new cases stem from positive tests
+
+- `days_1c`, `days_10c`, `days_100c`, `days_10d`
+
+  Days since first, 10th, 100th case, 10th death
 
 ## [deaths_age_distribution.csv](deaths_age_distribution.csv)
 
