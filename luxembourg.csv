@@ -1,4 +1,4 @@
-date,cases,deaths,recovered,active,tests,tests_new,hospitalized,critical,discharged,cases_mean_age,cases_ratio_female,deaths_median_age,deaths_mean_age,deaths_min_age,deaths_max_age,deaths_ratio_female,deaths_ratio_hospital,deaths_transfer,critical_transfer,hospitalized_transfer,reproduction_rate,state,source
+date,cases,deaths,recovered,active,tests,tests_new,hospitalized,critical,discharged,cases_mean_age,cases_ratio_female,deaths_median_age,deaths_mean_age,deaths_min_age,deaths_max_age,deaths_ratio_female,deaths_ratio_hospital,deaths_transfer,critical_transfer,hospitalized_transfer,reproduction_number,state,source
 2020-03-01T17:00:00,1,0,0,1,,,,,0,,,,,,,,,,,,,import,
 2020-03-05T17:30:00,2,0,,,,,,,,,,,,,,,,,,,,import,
 2020-03-06T18:15:00,3,0,,,,,,,,,,,,,,,,,,,,import,
