@@ -133,7 +133,7 @@ Age distribution of persons that died from COVID-19.
 
 The data includes one line for every age group per day. These are proportions of all deaths not new ones.
 
-- `data`
+- `date`
 
   date on which the information was published
 
