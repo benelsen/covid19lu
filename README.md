@@ -11,10 +11,13 @@ Columns can and will be added, changed and reordered as data becomes available o
 
 This file contains sparse data. Multiple entries per days can be present if information is made public at different times or via different sources. Only data points published by that source are included — missing data are not imputed or back-filled from other entries. **For a condensed datset see [timeline.csv below](#timelinecsv).**
 
+- `date_published`
+
+  the time the information was published
+  
 - `date`
 
-  the time the information was published (generally), or is applicable to.
-  A delay in reporting is to be expected
+  the day the information applies to (generally). The government never explicitly specified what period the data refers to, but indications are that they now refer to the previous day.
 
 - `cases`
 
