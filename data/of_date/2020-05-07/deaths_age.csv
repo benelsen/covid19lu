@@ -139,13 +139,13 @@ graphs_age_distribution,2020-05-04,2020-05-06T16:45:00.000+02:00,deaths_age,50 -
 graphs_age_distribution,2020-05-04,2020-05-06T16:45:00.000+02:00,deaths_age,60 - 70,"[60, 70)",60,70,0.05
 graphs_age_distribution,2020-05-04,2020-05-06T16:45:00.000+02:00,deaths_age,70 - 80,"[70, 80)",70,80,0.24
 graphs_age_distribution,2020-05-04,2020-05-06T16:45:00.000+02:00,deaths_age,≥ 80,"[80, +∞)",80,,0.69
-graphs_age_distribution,2020-05-05,2020-05-06T20:15:00.000+02:00,deaths_age,0 - 30,"[0, 30)",0,30,0.0
-graphs_age_distribution,2020-05-05,2020-05-06T20:15:00.000+02:00,deaths_age,30 - 40,"[30, 40)",30,40,0.0
-graphs_age_distribution,2020-05-05,2020-05-06T20:15:00.000+02:00,deaths_age,40 - 50,"[40, 50)",40,50,0.0
-graphs_age_distribution,2020-05-05,2020-05-06T20:15:00.000+02:00,deaths_age,50 - 60,"[50, 60)",50,60,0.02
-graphs_age_distribution,2020-05-05,2020-05-06T20:15:00.000+02:00,deaths_age,60 - 70,"[60, 70)",60,70,0.05
-graphs_age_distribution,2020-05-05,2020-05-06T20:15:00.000+02:00,deaths_age,70 - 80,"[70, 80)",70,80,0.24
-graphs_age_distribution,2020-05-05,2020-05-06T20:15:00.000+02:00,deaths_age,≥ 80,"[80, +∞)",80,,0.69
+graphs_age_distribution,2020-05-05,2020-05-06T17:45:00.000+02:00,deaths_age,0 - 30,"[0, 30)",0,30,0.0
+graphs_age_distribution,2020-05-05,2020-05-06T17:45:00.000+02:00,deaths_age,30 - 40,"[30, 40)",30,40,0.0
+graphs_age_distribution,2020-05-05,2020-05-06T17:45:00.000+02:00,deaths_age,40 - 50,"[40, 50)",40,50,0.0
+graphs_age_distribution,2020-05-05,2020-05-06T17:45:00.000+02:00,deaths_age,50 - 60,"[50, 60)",50,60,0.02
+graphs_age_distribution,2020-05-05,2020-05-06T17:45:00.000+02:00,deaths_age,60 - 70,"[60, 70)",60,70,0.05
+graphs_age_distribution,2020-05-05,2020-05-06T17:45:00.000+02:00,deaths_age,70 - 80,"[70, 80)",70,80,0.24
+graphs_age_distribution,2020-05-05,2020-05-06T17:45:00.000+02:00,deaths_age,≥ 80,"[80, +∞)",80,,0.69
 graphs_age_distribution,2020-05-06,2020-05-07T19:30:00.000+02:00,deaths_age,0 - 30,"[0, 30)",0,30,0.0
 graphs_age_distribution,2020-05-06,2020-05-07T19:30:00.000+02:00,deaths_age,30 - 40,"[30, 40)",30,40,0.0
 graphs_age_distribution,2020-05-06,2020-05-07T19:30:00.000+02:00,deaths_age,40 - 50,"[40, 50)",40,50,0.0
