@@ -1,4 +1,5 @@
-# dataset of publicly available data on the Covid-19 pandemic in Luxembourg
+# Covid-19 Luxembourg
+## aggregated dataset of publicly available data on Covid-19 in Luxembourg
 
 [Documentation](https://beta.donneeen.lu/covid19/data/)
 
