@@ -1,5 +1,7 @@
 # covid19lu
 
+# This branch is not updated anymore
+
 "Best effort" data of COVID-19 in Luxembourg.
 
 The dataset is compiled from official and media reports. The government now publishes [daily update](https://coronavirus.gouvernement.lu/en.html).
