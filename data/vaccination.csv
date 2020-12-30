@@ -1,0 +1,4 @@
+date,date_published,vaccinations,vaccinations_new,vaccinations_residents,vaccinations_residents_new,source
+2020-12-28,2020-12-30T12:00:00.000+02:00,431,431,,,"https://www.rtl.lu/news/national/a/1635593.html"
+2020-12-29,2020-12-30T12:00:00.000+02:00,,,,,
+2020-12-30,2020-12-30T12:00:00.000+02:00,1200,,,,"https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2020/12-decembre/30-vaccinations-personnel-structuresageesetsoins.html"
