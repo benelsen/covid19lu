@@ -349,3 +349,17 @@ date_start,date_end,date_published,measure,spatial_unit_type,ISO 3166-2:LU,LAU,L
 2020-12-07,2020-12-27,2020-12-30T15:20:00.000+02:00,cases_residents_new,canton,LU-WI,,8,,9,,Wiltz,266,17866,496.29
 2020-12-07,2020-12-27,2020-12-30T15:20:00.000+02:00,cases_residents_new,municipality,,304,3,4,0,1,Luxembourg-Ville,1003,122825,272.20
 2020-12-07,2020-12-27,2020-12-30T15:20:00.000+02:00,cases_residents_new,canton_equivalent,,,,,4,,Luxembourg-Campagne,663,68517,322.55
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-CA,,1,,2,,Capellen,346,50343,229.10
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-CL,,5,,6,,Clervaux,121,19043,211.80
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-DI,,6,,7,,Diekirch,325,33865,319.90
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-EC,,10,,11,,Echternach,146,19264,252.63
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-ES,,2,,3,,Esch-sur-Alzette,1933,183943,350.29
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-GR,,11,,12,,Grevenmacher,186,31137,199.12
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-LU,,3,,,,Luxembourg,1148,191342,199.99
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-ME,,4,,5,,Mersch,292,33607,289.62
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-RD,,7,,8,,Redange,168,19649,285.00
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-RM,,12,,13,,Remich,159,23399,226.51
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-VD,,9,,10,,Vianden,56,5474,341.01
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton,LU-WI,,8,,9,,Wiltz,199,17866,371.28
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,municipality,,304,3,4,0,1,Luxembourg-Ville,675,122825,183.19
+2020-12-14,2021-01-03,2021-01-06T17:24:00.000+02:00,cases_residents_new,canton_equivalent,,,,,4,,Luxembourg-Campagne,473,68517,230.11
