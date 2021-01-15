@@ -1,7 +1,7 @@
-manufacturer,name,trade_name,development_name,doses,doses_per_treatment,cost_per_dose
-Pfizer,Tozinameran,Comirnaty,BNT162b2,675290,2,€12.00
-Moderna,,,mRNA-1273,110462,2,$18.00
-AstraZeneca,,,AZD1222,415048,2,€1.78
-Janssen Pharmaceutica,,,Ad26.COV2.S,276156,1,$8.50
-Curevac,Zorecimeran,,CVnCoV,329399,2,€10.00
-Sanofi-GSK,,,,420000,2,€7.56
+manufacturer,name,trade_name,development_name,doses,doses_per_treatment,cost_per_dose,approved
+Pfizer,Tozinameran,Comirnaty,BNT162b2,675290,2,€12.00,true
+Moderna,,,mRNA-1273,110462,2,$18.00,true
+AstraZeneca,,,AZD1222,415048,2,€1.78,false
+Janssen Pharmaceutica,,,Ad26.COV2.S,276156,1,$8.50,false
+Curevac,Zorecimeran,,CVnCoV,329399,2,€10.00,false
+Sanofi-GSK,,,,420000,2,€7.56,false
