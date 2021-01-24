@@ -1,10 +1,10 @@
-date,date_published,manufacturer,name,trade_name,development_name,doses,doses_per_treatment,received,shipment
+date,date_published,manufacturer,name,trade_name,development_name,doses,doses_per_treatment,reception_confirmed,shipment
 2020-12-28,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,9750,2,true,1
 2021-01-11,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,true,2
 2021-01-11,2021-01-15T16:00:00.000+01:00,Moderna,,,mRNA-1273,1200,2,true,1
 2021-01-18,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,false,3
 2021-01-25,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,3900,2,false,4
-2021-01-25,2021-01-15T16:00:00.000+01:00,Moderna,,,mRNA-1273,1200,2,false,2
+2021-01-30,2021-01-22T15:00:00.000+01:00,Moderna,,,mRNA-1273,1200,2,false,2
 2021-02-01,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,false,5
 2021-02-01,2021-01-15T16:00:00.000+01:00,Moderna,,,mRNA-1273,1200,2,false,3
 2021-02-08,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,false,6
