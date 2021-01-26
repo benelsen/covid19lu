@@ -1,5 +1,10 @@
 # Changelog
 
+## 2021-01-26
+
+- `timeline.csv`, `daily_sante.csv`:
+    Going to add and rename some columns for vaccinations this later week to make things a little clearer.
+
 ## 2021-01-24
 
 - `vaccination/schedule.csv`: 
