@@ -8,6 +8,7 @@ date,date_published,manufacturer,name,trade_name,development_name,doses,doses_pe
 2021-02-01,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,false,5
 2021-02-01,2021-01-15T16:00:00.000+01:00,Moderna,,,mRNA-1273,1200,2,false,3
 2021-02-08,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,false,6
+2021-02-14,2021-02-01T11:00:00.000+01:00,AstraZeneca,,,AZD1222,11700,2,false,1
 2021-02-15,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,false,7
 2021-02-15,2021-01-15T16:00:00.000+01:00,Moderna,,,mRNA-1273,4800,2,false,4
 2021-02-22,2021-01-15T16:00:00.000+01:00,Pfizer,Tozinameran,Comirnaty,BNT162b2,4875,2,false,8
