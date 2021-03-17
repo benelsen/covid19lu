@@ -489,3 +489,17 @@ date_start,date_end,date_published,measure,spatial_unit_type,ISO 3166-2:LU,LAU,L
 2021-02-15,2021-03-07,2021-03-10T18:25:00.000+01:00,cases_residents_new,canton,LU-WI,,08,,09,,Wiltz,18197,74,135.55
 2021-02-15,2021-03-07,2021-03-10T18:25:00.000+01:00,cases_residents_new,municipality,,0304,03,04,00,01,Luxembourg-Ville,124528,554,148.29
 2021-02-15,2021-03-07,2021-03-10T18:25:00.000+01:00,cases_residents_new,canton_equivalent,,,,,04,,Luxembourg-Campagne,69000,310,149.76
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-CA,,01,,02,,Capellen,50733,234,153.75
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-CL,,05,,06,,Clervaux,19382,45,77.39
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-DI,,06,,07,,Diekirch,33944,169,165.96
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-EC,,10,,11,,Echternach,19463,100,171.27
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-ES,,02,,03,,Esch-sur-Alzette,185184,1710,307.80
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-GR,,11,,12,,Grevenmacher,31378,85,90.30
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-LU,,03,,,,Luxembourg,193528,792,136.41
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-ME,,04,,05,,Mersch,34063,203,198.65
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-RD,,07,,08,,Redange,19867,92,154.36
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-RM,,12,,13,,Remich,23529,121,171.42
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-VD,,09,,10,,Vianden,5482,38,231.06
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton,LU-WI,,08,,09,,Wiltz,18197,105,192.34
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,municipality,,0304,03,04,00,01,Luxembourg-Ville,124528,527,141.07
+2021-02-22,2021-03-14,2021-03-17T17:15:00.000+01:00,cases_residents_new,canton_equivalent,,,,,04,,Luxembourg-Campagne,69000,265,128.02
